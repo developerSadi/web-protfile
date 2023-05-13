@@ -4,11 +4,13 @@ body{
     margin: 0;
     padding: 0;
 }
-
+section{
+    padding-bottom: 20px;
+}
 h1{
     font-size: 30px;
 }
-.highlight{
+.orange-highlight{
     color: orange;
 }
 .para{
@@ -43,4 +45,32 @@ h1{
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: right;
+}
+.single-experinces{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+    background-color: white;
+}
+.para1{
+    padding-right: 15px;
+}
+.experince-area{
+    background-image: url(images/exp-bg.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#full-stack{
+    border-left: 5px solid ;
+    border-image:linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 5px solid ;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+footer .para{
+    text-align: center;
 }
